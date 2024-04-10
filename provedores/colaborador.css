@@ -65,7 +65,7 @@ header{
 /* parte central inicio proceso de compra*/
 
 .margen-externo{
-    height: 400vh;
+    height: 548vh;
     width: 225vh;
     background-color: #fec8d8;
 }
@@ -342,6 +342,267 @@ header{
 }
 
 .texto-h-cost{
+    width: 100vh;
+    font-size: small;
+    text-align: center;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    border : 1px solid;
+}
+
+/* contenedor video coca-cola*/
+
+.contenedor-coca{
+    height: 85vh;
+    background-image: url(https://www.shutterstock.com/image-photo/lvov-ukraine-january-23-2018-600nw-1105023368.jpg);
+    background-repeat: no-repeat;
+    background-size: 230vh;
+    background-position: 50% center;
+    background-blend-mode: overlay ;
+    margin-top: 0vh;
+}
+
+.texto-coca{
+    display: flex;
+    justify-content: space-evenly;
+    column-gap: 10vh;
+    background-color: black;
+}
+
+.texto-coca{
+    flex: 1;
+    border: 1px solid;
+}
+
+
+.texto-coca > h1{
+    display: flex;
+    justify-content: end;
+    margin-right: 0vh;
+    margin-top: 5vh;
+    font-family: "Pacifico", cursive;
+    font-weight: 500;
+    font-style: normal;
+    color: azure;
+    -webkit-text-stroke: 2px #bf0005;
+}
+
+.texto-coca > img{
+    display: flex;
+    height: 20vh;
+    width: 25vh;
+}
+
+.video-coca{
+    height: 65vh;
+    display: flex;
+    border: 1px solid;
+    align-items: center;
+    justify-content: space-evenly;
+    column-gap: 20vh;
+}
+
+.video-coca > iframe{
+    border: 1px solid;
+    margin-left: 10vh;
+    border-radius: 20px;
+    border: 5px solid #ffffff;
+}
+
+.texto-video-coca{
+    border: 1px solid;
+    width: 120vh;
+    height: 65vh;
+    margin-right: 15vh;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+.texto-video-coca > h2{
+    font-family: "Pacifico", cursive;
+    font-weight: 300;
+    font-style: normal;
+    color: #b68249;
+    -webkit-text-stroke: 2px black;
+    display: flex;
+    justify-content: center;
+}
+
+.texto-h-coca{
+    width: 100vh;
+    font-size: small;
+    text-align: center;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    border : 1px solid;
+}
+
+/* contenedor video ccu*/
+
+.contenedor-ccu{
+    height: 85vh;
+    background-image: url(https://archive.ph/2nYiO/c90d0bc308d0af69596f94929480240d6515b398.jpg);
+    background-repeat: no-repeat;
+    background-size: 230vh;
+    background-position: 50% center;
+    background-blend-mode: overlay ;
+    margin-top: 0vh;
+}
+
+.texto-ccu{
+    display: flex;
+    justify-content: space-evenly;
+    column-gap: 10vh;
+    background-color: #2bb000;
+}
+
+.texto-ccu{
+    flex: 1;
+    border: 1px solid;
+}
+
+
+.texto-ccu > h1{
+    display: flex;
+    justify-content: end;
+    margin-right: 0vh;
+    margin-top: 5vh;
+    font-family: "Pacifico", cursive;
+    font-weight: 500;
+    font-style: normal;
+    color: azure;
+    -webkit-text-stroke: 2px black;
+}
+
+.texto-ccu > img{
+    display: flex;
+    height: 20vh;
+    width: 25vh;
+}
+
+.video-ccu{
+    height: 65vh;
+    display: flex;
+    border: 1px solid;
+    align-items: center;
+    justify-content: space-evenly;
+    column-gap: 20vh;
+}
+
+.video-ccu > iframe{
+    border: 1px solid;
+    margin-left: 10vh;
+    border-radius: 20px;
+    border: 5px solid #ffffff;
+}
+
+.texto-video-ccu{
+    border: 1px solid;
+    width: 120vh;
+    height: 65vh;
+    margin-right: 15vh;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+.texto-video-ccu > h2{
+    font-family: "Pacifico", cursive;
+    font-weight: 300;
+    font-style: normal;
+    color: #b68249;
+    -webkit-text-stroke: 2px black;
+    display: flex;
+    justify-content: center;
+}
+
+.texto-h-ccu{
+    width: 100vh;
+    font-size: small;
+    text-align: center;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    border : 1px solid;
+}
+
+/* contenedor video jumbo*/
+
+.contenedor-jumbo{
+    height: 85vh;
+    background-image: url(https://www.24horas.cl/24horas/site/artic/20240327/imag/foto_0000001620240327152038/jumbo-supermercado-feriado-semana-santa.jpg);
+    background-repeat: no-repeat;
+    background-size: 230vh;
+    background-position: 30% center;
+    background-blend-mode: overlay ;
+    margin-top: 0vh;
+}
+
+.texto-jumbo{
+    display: flex;
+    justify-content: space-evenly;
+    column-gap: 10vh;
+    background-color: #f7f7f7;
+}
+
+.texto-jumbo{
+    flex: 1;
+    border: 1px solid;
+}
+
+
+.texto-jumbo> h1{
+    display: flex;
+    justify-content: end;
+    margin-right: 0vh;
+    margin-top: 5vh;
+    font-family: "Pacifico", cursive;
+    font-weight: 500;
+    font-style: normal;
+    color: azure;
+    -webkit-text-stroke: 2px black;
+}
+
+.texto-jumbo > img{
+    display: flex;
+    height: 20vh;
+    width: 25vh;
+}
+
+.video-jumbo{
+    height: 65vh;
+    display: flex;
+    border: 1px solid;
+    align-items: center;
+    justify-content: space-evenly;
+    column-gap: 20vh;
+}
+
+.video-jumbo > iframe{
+    border: 1px solid;
+    margin-left: 10vh;
+    border-radius: 20px;
+    border: 5px solid #ffffff;
+}
+
+.texto-video-jumbo{
+    border: 1px solid;
+    width: 120vh;
+    height: 65vh;
+    margin-right: 15vh;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+.texto-video-jumbo > h2{
+    font-family: "Pacifico", cursive;
+    font-weight: 300;
+    font-style: normal;
+    color: #b68249;
+    -webkit-text-stroke: 2px black;
+    display: flex;
+    justify-content: center;
+}
+
+.texto-h-jumbo{
     width: 100vh;
     font-size: small;
     text-align: center;
