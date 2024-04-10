@@ -94,31 +94,32 @@ header{
 }
 
 .contenedor-fruna{
-    height: 70vh;
+    height: 80vh;
     background-color: brown;
     margin-top: 5vh;
 }
 
+
 .texto-fruna{
     display: flex;
-    justify-content: end;
+    justify-content: space-evenly;
+    column-gap: 50vh;
+    background-color: #f15c00;
 }
 
-.contenedor-fruna{
-display: flex;
-flex-direction: column;
-height: 100vh;
-}
+
+
 
 .texto-fruna{
     flex: 1;
     border: 1px solid;
 }
 
+
 .texto-fruna > h1{
     display: flex;
     justify-content: end;
-    margin-right: 30vh;
+    margin-right: 0vh;
     margin-top: 5vh;
     font-family: "Pacifico", cursive;
     font-weight: 500;
@@ -127,7 +128,45 @@ height: 100vh;
     -webkit-text-stroke: 2px black;
 }
 
-/* parte final de la pagina*/
+.texto-fruna > img{
+    display: flex;
+    height: 20vh;
+    width: 25vh;
+}
+
+.video-fruna{
+    height: 60vh;
+    display: flex;
+    border: 1px solid;
+    align-items: center;
+    justify-content: space-evenly;
+    column-gap: 20vh;
+}
+
+.video-fruna > iframe{
+    border: 1px solid;
+    margin-left: 10vh;
+    border-radius: 20px;
+}
+
+.texto-video-fru{
+    border: 1px solid;
+    width: 100vh;
+    margin-right: 15vh; 
+}
+.texto-video-fru > h2{
+    font-family: "Pacifico", cursive;
+    font-weight: 300;
+    font-style: normal;
+    color: #b68249;
+    -webkit-text-stroke: 2px black;
+}
+
+.texto-h-fru{
+
+}
+
+/* parte foter de la pagina*/
 
 #final-principal{
     height: 75vh;
