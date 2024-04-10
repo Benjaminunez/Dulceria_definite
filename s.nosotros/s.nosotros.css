@@ -68,8 +68,22 @@ header{
     height: 100vh;
     background-color: antiquewhite;
     border: 2px solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    column-gap: 1vh;
 }
 
+.seccion-mapa > iframe{
+    border-radius: 20px;
+}
+
+.datos-mapa{
+    height: 80vh;
+    background-color: antiquewhite;
+    border: 1px solid;
+    width: 100vh;
+}
 
 /* parte foter de la pagina*/
 
