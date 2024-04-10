@@ -7,6 +7,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
+
+@keyframes bajar{
+    0%{
+        transform: translateY(100px)
+    }
+    100%{
+        transform: translateY(0px)
+    }
+}
+
+*{
+    animation: bajar 1s;
+}
+
 header{
     display: flex;
     height: 20vh;
@@ -91,6 +105,9 @@ header{
     display: flex;
     justify-content: center;
     text-align: center;
+    font-family: "Ubuntu", sans-serif ;
+    font-weight: 700 ;
+    font-style: normal;
 }
 
 .contenedor-fruna{
@@ -106,6 +123,7 @@ header{
     justify-content: space-evenly;
     column-gap: 50vh;
     background-color: #f15c00;
+    text-decoration: none;
 }
 
 .texto-fruna{
@@ -174,7 +192,6 @@ header{
     font-family: "Pacifico", cursive;
     font-weight: 400;
     font-style: normal;
-    border : 1px solid;
 }
 
 /* contenedor video mckay*/
@@ -194,6 +211,7 @@ header{
     justify-content: space-evenly;
     column-gap: 10vh;
     background-color: #bf0005;
+    text-decoration: none;
 }
 
 .texto-mckay{
@@ -261,7 +279,7 @@ header{
     font-family: "Pacifico", cursive;
     font-weight: 400;
     font-style: normal;
-    border : 1px solid;
+
 }
 
 /* contenedor video costa*/
@@ -281,6 +299,7 @@ header{
     justify-content: space-evenly;
     column-gap: 10vh;
     background-color: #ffffff;
+    text-decoration: none;
 }
 
 .texto-costa{
@@ -348,7 +367,7 @@ header{
     font-family: "Pacifico", cursive;
     font-weight: 400;
     font-style: normal;
-    border : 1px solid;
+
 }
 
 /* contenedor video coca-cola*/
@@ -368,6 +387,7 @@ header{
     justify-content: space-evenly;
     column-gap: 10vh;
     background-color: black;
+    text-decoration: none;
 }
 
 .texto-coca{
@@ -435,7 +455,6 @@ header{
     font-family: "Pacifico", cursive;
     font-weight: 400;
     font-style: normal;
-    border : 1px solid;
 }
 
 /* contenedor video ccu*/
@@ -455,6 +474,7 @@ header{
     justify-content: space-evenly;
     column-gap: 10vh;
     background-color: #2bb000;
+    text-decoration: none;
 }
 
 .texto-ccu{
@@ -522,7 +542,6 @@ header{
     font-family: "Pacifico", cursive;
     font-weight: 400;
     font-style: normal;
-    border : 1px solid;
 }
 
 /* contenedor video jumbo*/
@@ -542,6 +561,7 @@ header{
     justify-content: space-evenly;
     column-gap: 10vh;
     background-color: #f7f7f7;
+    text-decoration: none;
 }
 
 .texto-jumbo{
@@ -609,7 +629,6 @@ header{
     font-family: "Pacifico", cursive;
     font-weight: 400;
     font-style: normal;
-    border : 1px solid;
 }
 
 /* parte foter de la pagina*/
