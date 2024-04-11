@@ -6,7 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap');
 /* generacion header pagina*/
 header{
     display: flex;
@@ -79,11 +79,63 @@ header{
 }
 
 .datos-mapa{
-    height: 80vh;
+    height: 65vh;
     background-color: antiquewhite;
     border: 1px solid;
     width: 100vh;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    border-radius: 40px;
 }
+.datos-mapa h2{
+    display: flex;
+    justify-content: center;
+    border: 1px solid;
+    font-family: "Ubuntu", sans-serif ;
+    font-weight: 700 ;
+    font-style: normal ;
+    background-color: #c493c3;
+    border-radius: 50px;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    width: 50vh;
+    margin-left: 25%;
+}
+
+.datos-mapa p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: black;
+    margin-top: 0px;
+    margin-bottom: 3px;
+}
+
+.titulo{
+    display: flex;
+    border: 1px solid;
+    height: 20vh;
+    flex-direction: column;
+    width: 10vh;
+    border-radius: 20px ;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+}
+
+.titulo a{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    column-gap: 50%;
+    align-items: center;
+}
+
+.titulo img{
+    height: 9vh;
+}
+
 
 /* parte foter de la pagina*/
 
