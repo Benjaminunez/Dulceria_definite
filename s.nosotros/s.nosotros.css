@@ -7,6 +7,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap');
+
+@keyframes bajar{
+    0%{
+        transform: translateY(100px)
+    }
+    100%{
+        transform: translateY(0px)
+    }
+}
+
+*{
+    animation: bajar 1s;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
 /* generacion header pagina*/
 header{
     display: flex;
@@ -66,8 +84,9 @@ header{
 /*seccion de sobre nsootros*/
 .seccion-mapa{
     height: 100vh;
-    background-color: antiquewhite;
-    border: 2px solid;
+    background-image: url(https://img.freepik.com/free-vector/flat-world-chocolate-day-background-with-chocolate-sweets_23-2149430827.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -76,11 +95,12 @@ header{
 
 .seccion-mapa > iframe{
     border-radius: 20px;
+    border: 1px solid;
 }
 
 .datos-mapa{
-    height: 65vh;
-    background-color: antiquewhite;
+    height: 70vh;
+    background-color: #e8d1e7;
     border: 1px solid;
     width: 100vh;
     display: flex;
@@ -100,6 +120,7 @@ header{
     box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
     width: 50vh;
     margin-left: 25%;
+    margin-top: 15px;
 }
 
 .datos-mapa p{
@@ -110,8 +131,9 @@ header{
     font-weight: 500;
     font-style: normal;
     color: black;
-    margin-top: 0px;
+    margin-top: -1px;
     margin-bottom: 3px;
+    background-color: #e8d1e7;
 }
 
 .titulo{
@@ -122,6 +144,7 @@ header{
     width: 10vh;
     border-radius: 20px ;
     box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    background-color: #e8d1e7;
 }
 
 .titulo a{
@@ -134,6 +157,74 @@ header{
 
 .titulo img{
     height: 9vh;
+}
+
+.tarjetas1{
+    height: 40vh;
+    display: flex;
+    justify-content: space-evenly;
+    column-gap: 20px;
+    max-width: 500vh;
+}
+.tarjetas2{
+    height: 30vh;
+    display: flex;
+    justify-content: space-evenly;
+    column-gap: 20px;
+    max-width: 500vh;
+}
+
+.card mb-3{
+    height: 50vh;
+}
+
+#location-image{
+    height: 40px;
+}
+
+#building-image{
+    height: 40px;
+}
+
+#phone-image{
+    height: 40px;
+}
+
+#whast-image{
+    height: 30px;
+}
+
+.ubication{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20vh;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    background-color: darkorange;
+}
+
+#dulce1{
+    margin-right: 20px;
+}
+#dulce2{
+    margin-right: 20px;
+}
+
+#soda-ico{
+    display: flex;
+    height: 30px;
+    margin-left: 100px;
+}
+#cookie-ico{
+    display: flex;
+    height: 30px;
+    margin-left: 100px;
+}
+#cake-ico{
+    display: flex;
+    height: 40px;
+    margin-left: 100px;
 }
 
 
