@@ -131,6 +131,7 @@ header{
     text-align: center;
     font-weight: 300px;
     margin-top: 3px;
+    font-size: 30px;
 }
 .centro-compra{
     display: flex;
@@ -152,7 +153,7 @@ header{
     justify-content: baseline;
     flex-direction: row-reverse;
     height: 7.5vh;
-    margin-right: 2vh;
+    margin-right: 3vh;
     margin-top: 2vh;
 }
 
