@@ -1,0 +1,13 @@
+#boton-mensaje{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+#button{
+    width: 50vh !important;
+    height: 44px !important;
+    border-radius: 30px !important;
+    background-color: crimson !important;
+    color: #fffbf7 !important;
+}

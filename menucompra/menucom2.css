@@ -225,16 +225,21 @@ header{
     margin-top: 10px;
 }
 
-.boton-final button{
-    width: 50vh;
-    height: 44px;
-    border-radius: 30px;
-    background-color: crimson;
-    color: #fffbf7;
+/* boton con mensaje*/
+#button-launcher{
+    width: 50vh !important;
+    height: 44px !important;
+    border-radius: 30px !important;
+    background-color: crimson !important;
+    color: #fffbf7 !important;
 }
 
-.button-comprar img{
+#button-launcher img{
      height: 7vh;
+}
+
+.modal-footer img{
+    height: 20px;
 }
 
 /* parte final de la pagina*/
