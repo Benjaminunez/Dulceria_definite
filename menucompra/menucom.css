@@ -6,6 +6,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
+
+@keyframes delado{
+    from{
+        transform: translateX(-300px);
+    }
+    to{
+        transform: translateX(0) ;
+    }
+}
+
+*{
+    animation : delado 1.50s;
+}
+
 header{
     display: flex;
     height: 20vh;
@@ -64,17 +78,168 @@ header{
 /* parte central inicio proceso de compra*/
 
 .margen-externo{
-    height: 100vh;
-    background-color: #b68249;
+    height: 108vh;
+    background-image: url(https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjc1NS10b29uLTY3XzEuanBn.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.menu-compra{
+    display: flex;
+    height: 83vh;
+    width: 130vh;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 2px 6px 8px 0 #ef763d;
+}
+
+
+.titulo{
+    width: 140vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.linea{
+    width: 380px;
+    height: 2px;
+    background-color: #ef763d;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+.titulo{
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    height: 83vh;
+    width: 65vh;
+    display: flex;
+    justify-content: baseline;
+    box-shadow: 2px 6px 8px 0 #b68249;
+    border-radius: 20px;
+
+}
+
+.titulo h1{
+    text-align: center;
+    font-weight: 300px;
+    margin-top: 3px;
+}
+.centro-compra{
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+
+}
+.centro-compra img{
+    display: flex;
+    height: 60vh;
+    border-radius: 20px;
+    border: 5px solid;
+    margin-left: 5vh;
+    border-color: chocolate;
+}
+
+.close{
+    display: flex;
+    justify-content: baseline;
+    flex-direction: row-reverse;
+    height: 7.5vh;
+    margin-right: 2vh;
+    margin-top: 2vh;
+}
+
+.close img{
+    height: 7vh;
+}
+
+
+
+.descripcion{
+    display: flex;  
+    height: 50vh; 
+    align-items: center;
+    border-radius: 20px;
+    background-color: #f4f4f4;
+    margin-left: 0px;
+}
+
+.descripcion p{
+    font-family: "Ubuntu", sans-serif ;
+    font-weight: 600 ;
+    font-style: normal ;
+    text-align: center;
+    font-size: 13px;
+}
+
+.sellos{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    column-gap: 10px;
+}
+
+.parte1{
+    display: flex;
+    justify-content: space-evenly;
+    height: 7vh;
+    margin-top: 2px;
+}
+.parte2{
+    display: flex;
+    justify-content: space-evenly;
+    height: 7vh;
+}
+
+.sellos p{
+    font-size: larger;
+}
+
+.logo-sellos{
+    height: 40px;
+}
+
+.button-final{
+ justify-content: center;
+}
+
+.precio{
+
+    display: flex;
+    justify-content: center;
+}
+
+.boton-final{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.boton-final button{
+    width: 50vh;
+    height: 44px;
+    border-radius: 30px;
+    background-color: crimson;
+    color: #fffbf7;
+}
+
+.button-comprar img{
+     height: 7vh;
+}
 
 /* parte final de la pagina*/
 
 #final-principal{
     height: 75vh;
     background-color: #fffbf7;
-
 }
 
 .center-final{
