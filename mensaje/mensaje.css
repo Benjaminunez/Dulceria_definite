@@ -68,3 +68,17 @@ header{
     display: flex;
     justify-content: end;
 }
+
+/*desarrollo de dormulario para consultas u preguntas*/
+
+.formulario{
+    height: 100vh;
+    background-image: url(https://t4.ftcdn.net/jpg/02/92/30/91/360_F_292309140_YIKAavpf8Cggz7b5jYlmtSPyhx2F0E3O.jpg);
+    display: flex;
+    justify-content: center;
+}
+
+.formulario > h2{
+    margin-top: 20px;
+    font
+}
