@@ -107,6 +107,12 @@ header{
     border-radius: 20px ;
 }
 
+.conteinerinfo > h2{
+    display: flex;
+    justify-content: center;
+    border: 1px solid;
+}
+
 .mb-3{
     display: flex;
     justify-content: center;
