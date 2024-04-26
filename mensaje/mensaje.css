@@ -71,14 +71,43 @@ header{
 
 /*desarrollo de dormulario para consultas u preguntas*/
 
-.formulario{
+#formulamens{
     height: 100vh;
     background-image: url(https://t4.ftcdn.net/jpg/02/92/30/91/360_F_292309140_YIKAavpf8Cggz7b5jYlmtSPyhx2F0E3O.jpg);
+
+}
+
+.formulario{
     display: flex;
     justify-content: center;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    border: 1.5px solid;
+    background-color: #f7b85e;
 }
 
 .formulario > h2{
+    display: flex;
     margin-top: 20px;
-    font
+    border: 1px solid;
+    -webkit-text-stroke: 1px #ffffff;
+}
+
+.conteinerinfo{
+    background-color: #ffffff;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 60vh;
+    margin-left: 20vh;
+    margin-right: 20vh;
+    margin-top: 8vh;
+    border-radius: 20px ;
+}
+
+.mb-3{
+    display: flex;
+    justify-content: center;
 }
