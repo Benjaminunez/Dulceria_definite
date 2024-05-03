@@ -74,7 +74,7 @@ header{
 #formulamens{
     height: 100vh;
     background-image: url(https://t4.ftcdn.net/jpg/02/92/30/91/360_F_292309140_YIKAavpf8Cggz7b5jYlmtSPyhx2F0E3O.jpg);
-
+    
 }
 
 .formulario{
@@ -97,7 +97,7 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 60vh;
+    height: 70vh;
     margin-left: 40vh;
     margin-right: 40vh;
     margin-top: 8vh;
@@ -108,18 +108,18 @@ header{
 .conteinerinfo > h2{
     display: flex;
     justify-content: center;
-    border: 1px solid;
+    margin-bottom: 4px;
 }
 
 .mb-3{
     display: flex;
     justify-content: center;
+    margin-top: 8px;
 
 }
 
 .mb-3 > label{
     display: flex;
-    border: 1px solid;
     column-gap: 20px;
 }
 
@@ -147,16 +147,22 @@ header{
 
 #exampleFormControlInput1{
     width: 78vh;
-
+    border-color: black;
 }
+
 #exampleFormControlInput2{
-    width: 70vh;
+    width: 78vh;
+    border-color: black;
+}
+
+
+#inputGroupSelect01{
+    margin-left: 20vh;
+    margin-right: 20vh;
+    border-color: black;
 
 }
 
-.btn btn-primary{
-    width: 30vh;
+#exampleFormControlTextarea1{
+    border-color: black;
 }
-
-.
-
