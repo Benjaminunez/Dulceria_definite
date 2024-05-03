@@ -5,6 +5,7 @@ function validarUser(){
         input.classList.remove("incorrect");
         document.querySelector("#error-User").innerHTML = "&nbsp;";
         
+        
     }else{
         input.classList.add("incorrect");
         input.classList.remove("correct");
