@@ -3,7 +3,7 @@ function validarUser(){
     if(input.value.length >= 10){
         input.classList.add("correct");
         input.classList.remove("incorrect");
-        document.querySelector("#error-User").innerHTML = "&nbsp;";
+        document.querySelector("#error-User").innerHTML = "&nbsp;" ;
         
         
     }else{
