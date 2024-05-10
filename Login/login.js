@@ -25,3 +25,4 @@ function validarUser() {
       = "Error, ingrese minimo 10 caracteres!.";
   }
 }
+
