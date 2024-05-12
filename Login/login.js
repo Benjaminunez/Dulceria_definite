@@ -1,3 +1,4 @@
+
 function validarCampos() {
   let campos = document.querySelectorAll(".form-control");
   for (let i = 0; i < campos.length; i++) {
