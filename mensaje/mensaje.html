@@ -43,10 +43,11 @@
                 <h2><img src="../Imagenes/email.png" alt="">CONTACTATE CON NOSOTROS<img src="../Imagenes/send.png" alt=""></h2>
             </div>
             <div class="conteinerinfo">
-                <h2>Solicitudes</h2>
+            <form action="https://formsubmit.co/alexanderugaldeespindola@gmail.com" method="POST"> 
+              <h2>Solicitudes</h2>
                 <div class="mb-3">
-                  <label for="exampleFormControlInput1" class="form-label">Nombre</label>
-                  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="...">
+                  <labe l for="exampleFormControlInput1" class="form-label">Nombre</label>
+                  <input type="text" name="nombre" class="form-control" id="exampleFormControlInput1" placeholder="...">
                 </div>
                 <div class="input-group mb-3">
                   <label id="label-motivo" class="form-label">Motivo</label>
@@ -59,17 +60,21 @@
                 </div>
                 <div class="mb-3">
                     <label for="exampleFormControlInput1" class="form-label">Direccion Email</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com">
+                    <input type="email" name="Email" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com">
                   </div>
                   <div class="mb-4">
                     <label for="exampleFormControlTextarea1" class="form-label">Contexto</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    <input type="text" name="text" rows="3"></input>
                   </div>
                   <div class="boton-en">
                     <button type="submit" class="btn btn-primary" id="boton-enviar">Enviar</button>
                   </div>
+                </form>
             </div>
     </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-</body>
+
+  </body>
 </html>
+
+<!--<input type="hidden" name="_next" value="http://localhost:8000">-->
