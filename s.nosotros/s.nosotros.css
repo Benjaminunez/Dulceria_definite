@@ -83,10 +83,16 @@ header{
 
 
 #map {
+    border: solid 2px;
+    border-radius: 1%;
     height: 400px;
-    width: 100%;
+    width: 60%;
   }
 
+    #infolocation{
+    border: solid 1px;
+    font-family: 'Times New Roman', Times, serif;
+  }
   .titulo{
     display: flex;
     border: 1px solid;
