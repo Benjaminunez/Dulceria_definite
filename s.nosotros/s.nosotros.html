@@ -35,27 +35,26 @@
     </header>
     <section id = "direccion">
     <div class="ubication">
-        <h1><img id="dulce1" src="../Imagenes/candy.ico" alt="">puedes encontrarnos en esta direccion <img id="dulce2" src="../Imagenes/candy.ico" alt=""></h1>
-    </div>
-    <div class="seccion-mapa">
-        <div class="titulo">
-                <a href="https://www.instagram.com/duoc_melipilla/?hl=es-la"><img src="../Imagenes/instagram.ico" ></a>
-                <a href="https://www.youtube.com/@duocucsedemelipilla6333"><img src="../Imagenes/youtube.ico" ></a>
-        </div>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3319.569553861022!2d-71.21626462519994!3d-33.69420831003551!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x966255eae610cb2f%3A0xc3fdb55ead51065b!2sDuoc%20UC%3A%20Sede%20Melipilla!5e0!3m2!1ses!2scl!4v1712764462513!5m2!1ses!2scl" 
-        width="600" height="450" style="border:2;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        <div class="datos-mapa">
-            <h2><img id="location-image" src="../Imagenes/location.ico" alt="">Direccion.</h2>
-            <p>Calle : Serrano 1105, 9580698+</p>
-            <p>Ciudad : Melipilla +</p>
-            <p>Region : Región Metropolitana +</p>
-            <h2><img id="building-image" src="../Imagenes/building.ico" alt="">Edificio.</h2>
-            <p>.. Duoc Uc Sede Melipilla ..</p>
-            <p>.. cafeteria piso -1° ..</p>
-            <h2><img id="phone-image" src="../Imagenes/phone.ico" alt="">Contacto.</h2>
-            <p>+ (2) 2354 0560</p>
-            <p><img id="whast-image" src="../Imagenes/wathapp.ico" alt=""><a href="https://wa.me/56958142061">+56958142061</a></p>
-        </div>
+        <div id="map"></div>
+        <script>
+            function initMap() {
+                const melipilla = { lat: -33.682560, lng: -71.214400 }; // Coordenadas de Melipilla, Chile
+                const map = new google.maps.Map(document.getElementById("map"), {
+                    zoom: 15,
+                    center: melipilla,
+                });
+                const marker = new google.maps.Marker({
+                    position: { lat: -33.682560, lng: -71.214400 }, // Coordenadas de Serrano 1105 en Melipilla
+                    map: map,
+                    title: "Serrano 1105, Melipilla, Chile",
+                });
+            }
+        </script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC-7j6fW1eYrn2JxNTLplPj8WdbRV69jsU&callback=initMap" async defer>
+          
+        </script>    
+
+      </div>
     </section>
     </div>
     <footer id="final-principal">

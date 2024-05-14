@@ -81,62 +81,13 @@ header{
     font-style: normal !important;
 }
 
-/*seccion de sobre nsootros*/
-.seccion-mapa{
-    height: 100vh;
-    background-image: url(https://img.freepik.com/free-vector/flat-world-chocolate-day-background-with-chocolate-sweets_23-2149430827.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    column-gap: 1vh;
-}
 
-.seccion-mapa > iframe{
-    border-radius: 20px;
-    border: 1px solid;
-}
+#map {
+    height: 400px;
+    width: 100%;
+  }
 
-.datos-mapa{
-    height: 70vh;
-    background-color: #e8d1e7;
-    border: 1px solid;
-    width: 100vh;
-    display: flex;
-    flex-direction: column;
-    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
-    border-radius: 40px;
-}
-.datos-mapa h2{
-    display: flex;
-    justify-content: center;
-    border: 1px solid;
-    font-family: "Ubuntu", sans-serif ;
-    font-weight: 700 ;
-    font-style: normal ;
-    background-color: #c493c3;
-    border-radius: 50px;
-    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
-    width: 50vh;
-    margin-left: 25%;
-    margin-top: 15px;
-}
-
-.datos-mapa p{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    color: black;
-    margin-top: -1px;
-    margin-bottom: 3px;
-    background-color: #e8d1e7;
-}
-
-.titulo{
+  .titulo{
     display: flex;
     border: 1px solid;
     height: 20vh;
