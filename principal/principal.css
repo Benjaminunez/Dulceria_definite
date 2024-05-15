@@ -32,11 +32,12 @@ html{
 
 header{
     display: flex;
-    height: 20vh;
+    height: 15vh;
     background-color: #fffbf7;
-    justify-content: space-evenly;
+    margin-left: 10px;
     align-items: center;
     text-decoration: none;
+    max-width: 1200px;
 }
 
 .header-logo{
@@ -56,6 +57,13 @@ header{
     font-family: "Pacifico", cursive;
     font-weight: 400;
     font-style: normal
+}
+
+@media screen and (max-width:1200px){
+    header{
+        padding: 40px;
+    }
+
 }
 
 .nav-linl{
@@ -88,7 +96,7 @@ header{
     display: flex;
     justify-content: end;
 }
-
+ 
 #presentacion{
     height: 75vh;
 }
@@ -198,6 +206,7 @@ header{
     max-height: 100%;
 }
 
+
 .carousel_inner{
     padding: 0;
 }
@@ -233,7 +242,7 @@ header{
     display: flex;
     justify-content: left;
     margin-left: 8vh;
-    padding: 0;
+    padding: 20px;
 }
 
 .titulo_bebi{
